@@ -1,0 +1,4 @@
+Person begin = new Person();
+begin.setName("Jack");
+begin.setMaxiBook(20);
+begin.getName();
