@@ -25,5 +25,15 @@ public class TestclassPerson {
 	public void testSetMaxiBook() {
 		fail("Not yet implemented");
 	}
+	
+	// use TDD
+	@Test
+	public void testToString() {
+		Person p3 = new Person();
+		p3.setName("Lan");
+		p3.setMaxiBook(8);
+		String test = "Lan has 8 books";
+		assertEquals(test, p3.toString());				
+	}
 
 }

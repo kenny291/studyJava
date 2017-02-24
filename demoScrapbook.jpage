@@ -1,4 +1,4 @@
 Person begin = new Person();
 begin.setName("Jack");
 begin.setMaxiBook(20);
-begin.getName();
+begin.toString()(java.lang.String) totalBegin.Person@7006c658

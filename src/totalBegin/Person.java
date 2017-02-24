@@ -24,5 +24,9 @@ public class Person {
 		this.maxiBook = maxiBook;
 	}
 	
+	// for TDD
+	public String toString() {
+		return this.name + " has " + this.maxiBook + " books";
+	}
 
 }
