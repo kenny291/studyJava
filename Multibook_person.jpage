@@ -1,0 +1,13 @@
+ArrayList<Book> listBook = new ArrayList();
+Book b1 = new Book("Flowers");
+Book b2 = new Book("War and peace");
+listBook.add(b1);
+listBook.add(b2);
+
+Person p1 = new Person();
+p1.setName("Kenvin");
+b1.setPerson(p1);
+
+listBook.get(0).getPerson().getName();
+listBook.indexOf(b2);
+listBook.remove(b2)
