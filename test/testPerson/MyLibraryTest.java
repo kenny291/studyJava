@@ -41,8 +41,7 @@ public class MyLibraryTest {
 	public void testAddBook(){
 		setup();
 		assertEquals(0, ml.getBook().size());
-		ml.addBook(b1);
-		ml.addBook(b2);
+		addItem();
 		
 		assertEquals(2, ml.getBook().size());
 		assertEquals(0, ml.getBook().indexOf(b1));
@@ -50,5 +49,9 @@ public class MyLibraryTest {
 		ml.removeBook(b2);
 		assertEquals(1, ml.getBook().size());
 		assertEquals(0, ml.getBook().indexOf(b1));
+	}
+	private void addItem() {
+		ml.addBook(b1);
+		ml.addBook(b2);
 	}
 }
