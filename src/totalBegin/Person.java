@@ -1,4 +1,4 @@
-package totalBegin;
+package src.totalBegin;
 
 public class Person {
 	//fields

@@ -1,4 +1,10 @@
-package totalBegin;
+// Data Feb 2017
+/*
+ * Author Khiem291
+ */
+
+
+package src.totalBegin;
 
 import java.util.ArrayList;
 
@@ -57,7 +63,12 @@ public class MyLibrary {
 			return;
 		}
 	}
-
 	
-	
+	public static void main(String[]  args){
+		MyLibrary libTest = new MyLibrary("abc");
+		Book b1 = new Book("Book 1");
+		Book b2 = new Book("Book 2");
+		
+		System.out.println("Created book 1, 2")
+	} 
 }
