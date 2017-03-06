@@ -8,7 +8,7 @@ public class MyLibrary {
 	public ArrayList<Book> book;
 	public String name;
 	public ArrayList<Person> people;
-
+	
 	public MyLibrary(String name) {
 		this.name = name;
 		
