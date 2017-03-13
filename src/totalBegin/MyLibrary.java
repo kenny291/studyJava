@@ -4,9 +4,10 @@
  */
 
 
-package src.totalBegin;
+package totalBegin;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class MyLibrary {
 
@@ -58,17 +59,25 @@ public class MyLibrary {
 	
 	public ArrayList<Book> getBookForPerson(Person p1){
 		ArrayList<Book> result = new ArrayList<Book>();
-		for (Book aBook: this.getBook()) {
-			//do something;
-			return;
-		}
+//		for (Book aBook: this.getBook()) {
+//			//do something;
+//			
+//		}
+		return result;
 	}
 	
-	public static void main(String[]  args){
+	public static void main(String[] args) {
 		MyLibrary libTest = new MyLibrary("abc");
 		Book b1 = new Book("Book 1");
 		Book b2 = new Book("Book 2");
 		
-		System.out.println("Created book 1, 2")
+		// use scanner
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter something");
+		String a = sc.nextLine();
+		System.out.println("Just: " + a);
+		
+		
+		System.out.println("Created book 1, 2");
 	} 
 }

@@ -1,4 +1,4 @@
-package src.totalBegin;
+package totalBegin;
 
 public class Book {
 	public String title;
