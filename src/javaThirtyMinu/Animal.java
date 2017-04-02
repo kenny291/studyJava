@@ -39,6 +39,11 @@ public class Animal {
 	// Floats are 32 bit IEEE 754 floating points with decimal values
 	private float height;
 	
+	// Prefix 0 is used to indicate octal, and prefix 0x indicates hexadecimal
+	int decimal = 100;
+	int octal = 0144;
+	int hexa =  0x64;
+	
 	// Static variables have the same value for every object
 	// Any variable or function that doesn't make sense for an object to have should be made static
 	// protected means that this value can only be accessed by other code in the same package
